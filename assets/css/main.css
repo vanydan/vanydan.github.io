@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,400i");
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 
 /*
 	Hyperbolic by Pixelarity
@@ -4306,4 +4307,11 @@ input, select, textarea {
 		transform: translateX(0);
 		box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.125);
 		visibility: visible;
+	}
+
+	.vandan{
+		font-family: 'Fleur De Leah', cursive;
+		text-transform: capitalize;
+		margin-top: 70px;
+		font-size: 4rem;
 	}
