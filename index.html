@@ -10,9 +10,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-		<audio autoplay loop>
-			<source src="images/song.mp3" type="audio/mp3">
-		</audio>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -50,6 +47,8 @@
 							<ul class="actions special">
 								<li><a href="asistencia.html" class="button primary wide scrolly">Confirmar Asistencia</a></li>
 							</ul>
+							<audio id="player" autoplay loop><source src="images/song.mp3" type="audio/mp3"></audio>
+							<a class="button small" onclick="document.getElementById('player').play()" ondblclick="document.getElementById('player').pause()"><img src="images/playpause.png" alt="ps" id="playpause"></a>
 						</div>
 					</section>
 
