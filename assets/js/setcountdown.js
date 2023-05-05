@@ -1,4 +1,4 @@
-var end = new Date('05/05/2023 00:00 AM');
+var end = new Date('05/05/2023 04:00 PM');
 
 var _second = 1000;
 var _minute = _second * 60;
@@ -12,7 +12,7 @@ function showRemaining() {
     
     if (distance < 0) {
         clearInterval(timer);
-        document.getElementById('countdown').innerHTML = 'Iniciamos!, si no ve el video favor de recargar la página.';
+        document.getElementById('countdown').innerHTML = '¡Hoy es el gran día!';
     return;
     }
 
